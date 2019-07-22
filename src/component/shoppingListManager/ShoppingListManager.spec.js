@@ -1,9 +1,9 @@
 import ShoppingManager from './ShoppingListManager';
 
 describe('shoppingListManager', () => {
-    it('shpuld render ShoppingManager', () => {
+    it('should render ShoppingManager', () => {
         const wrapper = shallow(<ShoppingManager />);
-        const renderedElement = wrapper.children('h1');
+        const renderedElement = wrapper.children('table');
 
         expect(renderedElement).toHaveLength(1);
     });

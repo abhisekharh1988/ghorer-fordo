@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import ShoppingListManager from './component/shoppingListManager/ShoppingListManager';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi World!!</h1>
+      <ShoppingListManager />
     </div>
   );
 }
